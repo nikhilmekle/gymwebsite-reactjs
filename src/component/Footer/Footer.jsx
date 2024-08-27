@@ -19,6 +19,8 @@ export default function Footer() {
                     <img src={Logo} alt="" />
                 </div>
             </div>
+            <div className="blur blur-f-1"></div>
+            <div className="blur blur-f-2"></div>
         </div>
     )
 }

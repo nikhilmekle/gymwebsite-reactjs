@@ -5,6 +5,10 @@ import whiteTick from '../../assets/whiteTick.png'
 export default function Plans() {
   return (
   <div className="plans-container">
+
+    <div className="blur plans-blur-1"></div>
+    <div className="blur plans-blur-2"></div>
+
     <div className="programs-header">
         <span className='stroke-text'>READY TO START</span>
         <span>YOUR JOURNEY</span>
