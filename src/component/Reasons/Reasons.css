@@ -11,6 +11,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     grid-auto-rows: 1fr;
+    margin: 1rem;
 }
 
 .left-r>img{
@@ -55,17 +56,21 @@
     gap: 1rem;
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
+
 }
 
 .right-r>span{
     font-weight: bold;
     color: var(--orange);
+
 }
 
 .right-r>div{
     color: white;
     font-size: 3rem;
     font-weight: bold;
+    
 }
 
 .details-r{
@@ -85,6 +90,7 @@
 .details-r>div>img{
     width: 1.5rem;
     height: 1.5rem;
+    
 }
 
 .partners{
@@ -94,4 +100,37 @@
 
 .partners>img{
     width: 2.5rem;
+}
+
+@media screen and (max-width : 768px)
+{
+    .Reasons{
+        flex-direction: column;
+    }
+
+    .left-r{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+
+    .left-r>:nth-child(1)
+    {
+        width: 7rem;
+        height: 17rem;
+    }
+    
+    .left-r>:nth-child(2)
+    {
+        width: 15rem;
+        height: 10rem;
+    }
+    .left-r>:nth-child(3)
+    {
+        width: 7rem;
+    }
+    .left-r>:nth-child(4)
+    {
+        width: 7rem;
+        height: 6rem;
+    }
 }
